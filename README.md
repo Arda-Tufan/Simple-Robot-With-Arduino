@@ -11,7 +11,10 @@ The motors will not work with 5V. I used 6 1.5V batteries to power it and it wor
 # How it works
 
 
-When sensor detects something that is closer than 25 cm on the left, it will stop turning the right wheel to move left and vice versa. Now if it detects something closer than 25 cm in the front, it will start spinning the wheels backwards until there is no obstacle.
+When sensor detects something that is closer than 25 cm on the left, it will stop turning the right wheel to move left and vice versa. Now if it detects something closer than 25 cm in the front, it will start spinning the wheels backwards until there is no obstacle. The sensor will print values like the following oreder,
+
+
+Sensor in the left - Sensor in the Front - Sensor in the right
 
 
 # Circuit Diagram
